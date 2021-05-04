@@ -58,8 +58,7 @@ float: left;}
     
     .search_box form input[type='submit'] {
     background: url(image/search-image.png);
-    background-position: right;
-    background-repeat: no-repeat;
+    padding: 1px 9px;
 }
 .main_header_area{
     padding-top:30px
@@ -239,6 +238,7 @@ border-bottom: 1px solid #666666;
 background-image: url(image/footer-arrow.png);
 background-repeat: no-repeat ;
 padding-left:20px;
+background-position: left center;
 }
 .subfooter_section ul li a{color:#666666;
 font-size: 14px;}
