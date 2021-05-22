@@ -4,25 +4,30 @@
 
     .full_website{
         width:100%;
-        background:skyblue;
      }
+     .top_header_area {
+        width: 96%;    
+    }
+  
      .container {
-        width: 745px;
+        width: 97%;
     }
     .search_box {
         width: 30%;
     }
+
+    
     .main_menu {
         height: 46px;
+        display: none;
     }
     .image_sec {
-        float: left;
-        width: 56%;
+            float: left;
+            width: 61%;
     }
     .content_hero h2 {
         font-size: 77px;
-        font-weight: normal;
-        line-height: 1.2em;
+        line-height: normal;
     }
 
     .about h2, .services h2, .testimonial h2 {
@@ -31,30 +36,36 @@
      .about img {
      width: 96%;
 }
-.subfooter_section h2 {
+ .subfooter_section h2 {
     font-size: 14px;
 }
-.left_copy {
+  .left_copy {
     width: 45%;
 }
-.right_copy {
+  .right_copy {
     width: 25%;
 }
 }  
 
    
- /*------------------------ Mobile Mode---------------------- */
+ /*#######################################   Mobile Mode   ####################################### */
 
  @media only screen and (min-width:480px) and (max-width:767px){
 
     .full_website{
        width:100%;
-       background:yellow;
+       /* background:yellow; */
+    }
+    .main_menu {
+        display: none;
     }
     .container {
-        width: 480px;
-        margin: 0 auto;
+        width: 97%;
     }
+   
+.top_header_area {
+    width: 95%;
+}
     .search_box {
         width: 76%;
         float: right;
@@ -63,6 +74,13 @@
     .logo {
         width: 38%;
     }
+    .social_menu {
+        width: 57%;}
+
+.logo img {
+         width: 99%;
+         margin-left: 3px;
+        }   
 
     .main_menu {
             height: 48px;
@@ -103,6 +121,8 @@
     .about h2, .services h2, .testimonial h2 {
         margin-top: 30px;
     }
+   
+    /* footer----------------------------------- */
     .main_footer {
         flex-direction: column;
     }
@@ -140,46 +160,51 @@
 }
 
 
-
-
- /*------------------------ For small Device ---------------------------- */
+ /*##################################### For small Device #####################################*/
 
  @media only screen and (min-width:200px) and (max-width:479px){
 
     .full_website{
        width:100%;
-       background:rgb(243, 64, 64);
+       /* background:rgb(243, 64, 64); */
     }
-    .container {
-        width: 450px;
-        margin: 0 auto;
+    .container{width:97%
     }
-
+    .main_menu {
+        display: none;
+    }
+    .social_menu {
+        width: 50%;
+    }
     .top_header_menu {
         width: 80%;
     }
+    .top_header_area {
+        width: 93%;
+    }
     .search_box {
-        width: 76%;
+        width: 100%;
         float: right;
-        padding-top: 10px;
+        padding-top: 0px;
+    }
+    .search_box form input[type="text"] {
+        margin-left: 0px;
     }
     .logo img {
-        width: 200px;
+        width: 97%;
         margin-left: 3px;
     }
     .social_menu {
-        width: 52%;
+        width: 90%;
         padding-right: 24px;
-        padding-top: 10px;
+        padding-top: 0px;
     }
     .main_menu {
             height: 62px;
      }
      .content_hero h2 {
-        font-size: 72px;
-        font-weight: normal;
-        line-height: 1.5em;
-        padding: 19px;
+        font-size: 45px;
+         
     }
     .content_hero p {
         font-size: 16px;
@@ -191,6 +216,7 @@
    .image_sec {
     width: 100%;
     text-align: center;
+    height: 200px;
      }
      .main_div {
     flex-direction: column;
@@ -233,16 +259,7 @@
         margin:0 auto;
      }
 
-    .subfooter_section form input[type="text"] {
-        padding-right: 128px;
-     }
-     .subfooter_section form input[type="email"] {
-            padding-right: 128px;
-     }
-
-      textarea {          
-                padding-right: 144px;
-                }
+   
 
     .subfooter_section form input[type="submit"] {
         color: #b92d1f;
@@ -250,8 +267,11 @@
         padding: 7px;
         margin-top: 5px;
         border-radius: 4px;
-        margin-left: -212px;
+        margin-left: 0px;
         margin-bottom: 11px;
+        }
+        .copyright {
+            height: 69px;
         }
 
     .left_copy {width: 56%;

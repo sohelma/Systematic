@@ -4,17 +4,17 @@ a{text-decoration: none;}
 .left{float: left;}
 .right{float:right}
 .container{
-    width:960px;
+    width:97%;
     margin: 0 auto;
 }
 .img{
-    max-width: 100%;
+    max-width: 98%;
     height: auto;
-}
+}   
 /* -----------common CSS end----------- */
 
 .full_website{
-    width: 1150px;
+    max-width: 73%;
     height: auto;
     margin: 0 auto;
     margin-bottom: 20px;
@@ -23,7 +23,7 @@ a{text-decoration: none;}
 
 .top_header_area{
     background: #ba2e0b;
-    width: 100%;
+    width: 96%;
     height: auto;
     padding: 10px 15px;
     overflow: hidden;
@@ -40,7 +40,7 @@ float: left;}
 }
 .top_header_menu ul li a{color: white;}
 
-.search_box{width: 25%;
+.search_box{width: 28%;
     float: right;}
 
 .search_box form{width: 100%;
@@ -67,8 +67,7 @@ float: left;}
     width:40%;
     margin-bottom: 30px;
 }
-.logo img{
-    width:240px
+.logo img{ width: 70%;
 }
 .social_menu{
     width: 57%;
@@ -86,7 +85,7 @@ float: left;}
     width: 64%;}
     .social_menu ul li a i:hover{background: rgb(236, 154, 2);}
 
-    /*  Main menu */
+    /*  Main menu------------------------------------------- */
     .main_menu{width: 100%;
         background:#333333;
         clear: both;
@@ -112,13 +111,17 @@ float: left;}
     .main_menu ul li a{color:white}
     .main_menu ul li a:hover{color:#ba2e1f}
 
-    /* Section hero area */
+    /* Section hero area---------------------------------------- */
     .hero_area{margin-top: 21px;}
-    .image_sec{ float:left;
-    width: 44%;
-    margin-right: 2%;}
+    .image_sec {
+        background-image: url(image/box1.png);
+        background-repeat: no-repeat;
+        width: 47%;
+        height: 360px;
+        float: left;
+    }
  /* background: skyblue; */
-
+ /* .image_sec{ float:left;width: 44%; margin-right: 2%;} */
  .content_hero h2{font-size: 77px;
     font-weight: normal;
     line-height: 1.5em;
@@ -138,7 +141,7 @@ float: left;}
         margin-top: 10px;
     }
 
-    /*------------ About section-------- */
+    /*------------ About section-------------------------------------- */
     .about_sec{
         background:#f2f2f2;
         clear:both;
@@ -158,6 +161,11 @@ float: left;}
     .about{
         width: 32%;
         margin: 1%;
+    }
+    .about_img{background-image: url(image/box2.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 145px;
     }
     .services{
         width: 32%;
@@ -257,7 +265,7 @@ margin-top: -22px;
     padding: 4px;
     margin-top: 5px;
     border-radius: 4px;
-    padding-right: 75px;
+    width: 81%;
 }
 .subfooter_section form input[type='email']{
     background: #f2f2f2;
@@ -265,7 +273,7 @@ margin-top: -22px;
     padding: 4px;
     margin-top: 5px;
     border-radius: 4px;
-    padding-right: 75px;
+    width: 81%;
 }
 textarea{
     background: #f2f2f2;
@@ -273,7 +281,7 @@ textarea{
     padding-top: 5px;
     margin-top: 5px;
     border-radius: 4px;
-    padding-right: 75px;
+    width: 80%;
 }
 
 .subfooter_section form input[type='submit']{
@@ -289,6 +297,7 @@ textarea{
     padding-bottom: 12px;
     padding-top: 23px;
     height: 25px;
+    width: 97%;
 } 
 
 .left_copy{width:40%}
